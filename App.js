@@ -9,9 +9,9 @@ import StartGameScreen from './screens/StartGameScreen';
 import Header from './components/Header';
 
 const fetchFonts = () => {
-  Font.loadAsync({
+  return Font.loadAsync({
     'open-sans': require('./assets/fonts/OpenSans-Regular.ttf'),
-    'open-sans-bold': require('./assets/fonts/OpenSans-Bold.ttf'),
+    'open-sans-bold': require('./assets/fonts/OpenSans-Bold.ttf')
   });
 };
 
