@@ -20,6 +20,9 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.primary,
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  headerTitle: {
+    color: '#fff'
   }
 });
 
